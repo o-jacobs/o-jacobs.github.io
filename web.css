@@ -20,70 +20,31 @@ body {
   background-color: var(--base-color);
 }
 
-h1, h2, h3 {
-  font-family: 'Segoe UI';
-}
-
-nav {
-  margin: 1em auto 3em auto;
-  width: min(1000px,100%);
-}
-
-ul {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  gap: 2em;
-}
-
-nav li:first-child{
-  margin-right: auto;
-  font-family: 'Segoe UI';
+.site .header a {
   font-weight: bold;
-}
-
-a {
   text-decoration: none;
-  text-color: var(--text-color);
 }
 
-a:hover {
-  text-decoration: underline;
+.site .header h1.title {
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 2em;
 }
 
-header, section {
-  margin: 2em, auto;
-  width: min(75em,100%);
-  background=color: var(--color-1);
-  padding: min(2em,15%);
-  border-radius: 1em;
+.site .header h1.title a {
+  color: #a00;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 3em;
+.site .header h1.title a:hover {
+  color: #000;
 }
 
-header img {
-  max-width: 100%;
-  border-radius: 1em;
-  object-fit: cover;
-  object-position: bottom;
+.site .header a.extra {
+  color: #aaa;
+  margin-left: 1em;
 }
 
-.text-container {
-  flex: 0 1 34em;
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-
-.text-container p {
-  margin: .75em 0 1em 0;
-  font-size: 1.25rem;
+.site .header a.extra:hover {
+  color: #000;
 }
 
