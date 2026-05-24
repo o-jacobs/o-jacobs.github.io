@@ -20,31 +20,31 @@ body {
   background-color: var(--base-color);
 }
 
-.site .header a {
+.header a {
   font-weight: bold;
   text-decoration: none;
 }
 
-.site .header h1.title {
+.header h1.title {
   font-size: 20px;
   display: inline-block;
   margin-bottom: 2em;
 }
 
-.site .header h1.title a {
+.header h1.title a {
   color: #a00;
 }
 
-.site .header h1.title a:hover {
+.header h1.title a:hover {
   color: #000;
 }
 
-.site .header a.extra {
+.header a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-.site .header a.extra:hover {
+.header a.extra:hover {
   color: #000;
 }
 
