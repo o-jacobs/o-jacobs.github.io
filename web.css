@@ -11,7 +11,7 @@
 }
 
 html {
-  font-family: Monaco, Courier, Serif;
+  font-family: "DejaVu Sans Monaco","Menlo",Courier,Serif;
   color: var(--text-color);
 }
 
@@ -50,3 +50,15 @@ body {
   color: #000;
 }
 
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 3em;
+}
+
+.banner .contact {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
