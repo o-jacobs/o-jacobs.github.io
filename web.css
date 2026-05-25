@@ -29,12 +29,17 @@ body {
 
 .header a {
   font-weight: bold;
-  text-decoration: none;\
+  text-decoration: none;
   color: var(--text-color);
 }
 
+.header a:visited {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
 .header h1.title {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .header h1.title a:hover {
@@ -46,11 +51,15 @@ body {
   gap: 20px;
 }
 
+.header-right a {
+  font-size: 20px;
+}
+
 .header-right a:hover {
   color: #000;
 }
 
-.banner {
+.info {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,7 +67,11 @@ body {
   margin-bottom: 3em;
 }
 
-.banner .contact {
+.info .contact {
   font-size: 1.1em;
   line-height: 1.6;
+}
+
+.info a {
+  text-decoration: none;
 }
